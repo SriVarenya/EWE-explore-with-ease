@@ -1,0 +1,49 @@
+/* Reset some default styles and set the background image */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background: url('EwE.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Center the content on the page */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Style the "NEXT" button */
+.next-button {
+    display: inline-block;
+    background-color: #0074d9;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
